@@ -1,0 +1,22 @@
+
+INCORRECT: “Use an unqualified ARN” is incorrect as this is an ARN that does not have a version number which means it points to the $LATEST version, not to a published version (as published versions always have version numbers).
+
+INCORRECT: “Setup a Route 53 Alias record that points to the published version” is incorrect as you cannot point a Route 53 Alias record to an AWS Lambda function.
+
+References:
+
+https://docs.aws.amazon.com/lambda/latest/dg/configuration-aliases.html
+
+Save time with our exam-specific cheat sheets:
+
+https://digitalcloud.training/certification-training/aws-developer-associate/aws-compute/aws-lambda/
+
+2. QUESTION
+A Java based application generates email notifications to customers using Amazon SNS. The emails must contain links to access data in a secured Amazon S3 bucket. What is the SIMPLEST way to maintain security of the bucket whilst allowing the customers to access specific objects?
+
+ Use the AWS SDK for Java to assume a role with AssumeRole to gain temporary security credentials
+ Use the AWS SDK for Java with GeneratePresignedUrlRequest to create a presigned URL
+ Use the AWS SDK for Java to update the bucket Access Control List to allow the customers to access the bucket
+ Use the AWS SDK for Java with the AWS STS service to gain temporary security credentials
+Correct
+Explanation:
