@@ -1,0 +1,25 @@
+1. QUESTION
+A Development team are deploying an AWS Lambda function that will be used by a production application. The function code will be updated regularly, and new versions will be published. The development team do not want to modify application code to point to each new version.
+
+How can the Development team setup a static ARN that will point to the latest published version?
+
+ Setup an Alias that will point to the latest version
+ Use an unqualified ARN
+ Setup a Route 53 Alias record that points to the published version
+ Publish a mutable version and point it to the $LATEST version
+Correct
+Explanation:
+
+You can create one or more aliases for your AWS Lambda function. A Lambda alias is like a pointer to a specific Lambda function version. Users can access the function version using the alias ARN.
+
+
+
+This is the best way to setup the Lambda function so you don’t need to modify the application code when a new version is published. Instead, the developer will simply need to update the Alias to point to the new version:
+
+
+
+As you can see above you can also point to multiple versions and send a percentage of traffic to each. This is great for testing new code.
+
+CORRECT: “Setup an Alias that will point to the latest version” is the correct answer.
+
+INCORRECT: “Publish a mutable version and point it to the $LATEST version” is incorrect as all published versions are immutable (cannot be modified) and you cannot modify a published version to point to the $LATEST version.
