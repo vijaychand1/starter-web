@@ -1,4 +1,4 @@
-
+my local commit
 INCORRECT: “Use an unqualified ARN” is incorrect as this is an ARN that does not have a version number which means it points to the $LATEST version, not to a published version (as published versions always have version numbers).
 
 INCORRECT: “Setup a Route 53 Alias record that points to the published version” is incorrect as you cannot point a Route 53 Alias record to an AWS Lambda function.
