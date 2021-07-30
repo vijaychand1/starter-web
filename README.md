@@ -20,3 +20,7 @@ This page is for How to contribute
 This page is for How to contribute page 2 in local but in staging area
 This page is for How to contribute page 2 in local but in staging area 2
 This page is for How to contribute page 2 in local but in staging area 2
+
+## Copyright
+
+This is copy right content
