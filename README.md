@@ -10,6 +10,7 @@ Sample website with plenty of files for demos
 This is introduction
 
 ## Purpose
+This is purpose
 
 ## Deployment
 
