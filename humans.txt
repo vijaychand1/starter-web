@@ -10,8 +10,7 @@
     Thanks in feature branch
 
 # TECHNOLOGY COLOPHON
-
-    HTML5, CSS3
+	new chanmge    HTML5, CSS3
     jQuery, Modernizr
 # COMMANDS
  Stash changes new
