@@ -28,3 +28,5 @@ Please fork and raise a pull request
 This is copy right content. 
 Update after stash message
 Update after stash message 2
+Changes after stash file
+Changes after stash file
